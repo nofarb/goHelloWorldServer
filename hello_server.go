@@ -31,7 +31,7 @@ func main() {
 	r := mux.NewRouter()
 
 	r.HandleFunc("/", handler)
-
+ 
 	srv := &http.Server{
 		Handler:      r,
 		Addr:         ":8080",
@@ -66,3 +66,5 @@ func waitForShutdown(srv *http.Server) {
 	log.Println("Shutting down")
 	os.Exit(0)
 }
+
+
