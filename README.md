@@ -1,6 +1,8 @@
 # HelloWorldGoServer
 GO + Docker + unit tests
 
+Change for commit.
+Another change.
 
 ## Running the app locally
 
